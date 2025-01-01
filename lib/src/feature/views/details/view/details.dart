@@ -8,11 +8,10 @@ class Details extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: appBarMyApp(text: "Shose App"),
+      appBar: appBarMyApp(text: "Shoes App"),
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
-          
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Column(
@@ -39,7 +38,6 @@ class Details extends StatelessWidget {
                     cardModel.price.toString()),
               ],
             ),
-        
           ],
         ),
       ),

@@ -20,7 +20,7 @@ class HomePage extends StatelessWidget {
           HomeTestCubit cubit1 = BlocProvider.of<HomeTestCubit>(context);
 
           return Scaffold(
-            appBar: appBarMyApp(text: "Shose App"),
+            appBar: appBarMyApp(text: "Shoes App"),
             bottomNavigationBar: BottomNavigationBar(
                 currentIndex: cubit1.currentIndex,
                 onTap: (value) {

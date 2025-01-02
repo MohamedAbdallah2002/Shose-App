@@ -41,20 +41,20 @@ class HomePage extends StatelessWidget {
               crossAxisSpacing: 10.0,
               mainAxisSpacing: 10.0,
               padding: const EdgeInsets.all(10.0),
-              children: List.generate(listModelShoes.length, (index) {
+              children: List.generate(listModelYouthClothing.length, (index) {
                 return GestureDetector(
                   onTap: (){
                     Navigator.push(
                 context,
                 MaterialPageRoute(
                   builder: (context) => Details(
-                      cardModel: listModelShoes[index],
+                      cardModel: listModelYouthClothing[index],
                   ),
                 ),
               );
                   },
                   child: CustomCard(
-                    cardModel: listModelShoes[index],
+                    cardModel: listModelYouthClothing[index],
                   ),
                 );
               }),
